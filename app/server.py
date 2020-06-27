@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=10cWkPuttjb1sGvDobD3E5BC2vr6MriC8'
-export_file_name = 'friends_export.pkl'
+export_file_name = 'export.pkl'
 
 classes = ['ross', 'rachel', 'joey', 'chandler', 'monica', 'phoebe']
 path = Path(__file__).parent
